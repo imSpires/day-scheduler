@@ -9,14 +9,6 @@ body {
   line-height: 1;
 }
 
-/* textarea{
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
-} */
 
 .jumbotron {
   text-align: center;
@@ -25,6 +17,80 @@ body {
   border-radius: 0;
   border-bottom: 10px solid black;
 }
+
+.container {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  
+}
+
+.hour-container {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  border: solid rgba(216, 216, 216, 0.637) 1px;
+}
+
+.planned-event {
+  padding: 5px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 5;
+}
+
+.planned-event textarea {
+  width: 100%;
+  background: transparent;
+  color: white;
+  text-align: center;
+}
+
+.hour {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(216, 216, 216, 0.637);
+}
+
+.hour h1 {
+  font-size: 24px;
+}
+
+
+.save {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: black;
+  color: white;
+  height: 80px;
+  width: 80px;
+  
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+/* textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+} */
 
 /* .description{
   white-space: pre-wrap;
@@ -61,16 +127,3 @@ body {
   background-color: #77dd77;
   color: white;
 } */
-
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}
