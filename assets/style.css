@@ -26,10 +26,10 @@ body {
 }
 
 .hour-container {
-  background-color: black;
+  background-color: #d3d3d3;
   height: 100px;
   display: flex;
-  border: solid rgba(216, 216, 216, 0.637) 1px;
+  border: solid black 1px;
 }
 
 .text-content {
@@ -43,10 +43,11 @@ body {
 .hour-container textarea {
   width: 100%;
   background: transparent;
-  color: white;
+  color: Black;
   text-align: center;
   padding: 20px 20px;
   font-size: 18px;
+  border: none;
 }
 
 .hour {
@@ -54,8 +55,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgba(216, 216, 216, 0.637);
+  color: black;
   font-size: 24px;
+  border-right: 1px solid black;
 }
 
 
@@ -64,7 +66,7 @@ body {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: transparent;
-  color: white;
+  color: black;
   flex: 2;
   display: flex;
   justify-content: center;
