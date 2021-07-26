@@ -32,40 +32,32 @@ body {
   border: solid rgba(216, 216, 216, 0.637) 1px;
 }
 
-.planned-event {
+.text-content {
   padding: 5px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 5;
+  flex: 9;
 }
 
-.planned-event textarea {
+.hour-container textarea {
   width: 100%;
   background: transparent;
   color: white;
   text-align: center;
+  padding: 20px 20px;
+  font-size: 18px;
 }
 
 .hour {
-  flex: 1;
+  flex: 2;
   display: flex;
   align-items: center;
   justify-content: center;
   color: rgba(216, 216, 216, 0.637);
-}
-
-.hour h1 {
   font-size: 24px;
 }
 
-
-.save {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .saveBtn {
   border-left: 1px solid black;
@@ -73,8 +65,10 @@ body {
   border-bottom-right-radius: 15px;
   background-color: black;
   color: white;
-  height: 80px;
-  width: 80px;
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
 
