@@ -63,7 +63,7 @@ function getLocalStorage() {
     $("#workdayhour17 .text-content").val(localStorage.getItem("workdayhour17"));
 }
 
-// Call all the functions on page load
+// Call all the functions
 getLocalStorage();
 updateClock();
 hourColor();
